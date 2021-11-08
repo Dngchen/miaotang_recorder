@@ -19,10 +19,10 @@ os.chdir('C://Program Files/Android/tools')
 # os.system('adb shell screencap /sdcard/screen.png')
 # os.system('adb pull /sdcard/screen.png D:\\test')
 
-# 百度的ocr技术，需要自己免费注册获取密钥
+# 百度的ocr技术，需要自己免费注册获取密钥填在下面
 ssl._create_default_https_context = ssl._create_unverified_context
-API_KEY = 'ovWcEm3jwRRaKeR8xVCtd0GT'
-SECRET_KEY = 'eEBUwHhX6FogoenDR6Fr3VnostOqOtD3'
+API_KEY = ''
+SECRET_KEY = ''
 OCR_URL = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"
 TOKEN_URL = 'https://aip.baidubce.com/oauth/2.0/token'
 
